@@ -1,6 +1,6 @@
-<iframe src="https://giphy.com/embed/qgQUggAC3Pfv687qPC" width="480" height="360" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p><a href="https://giphy.com/gifs/dommespace-domme-space-programador-qgQUggAC3Pfv687qPC">via GIPHY</a></p><h1 align="center">Hi 👋, I'm Abdul Ahad</h1>
+<h1 align="center">Hi 👋, I'm Abdul Ahad</h1>
 <h3 align="center">Full Stack Developer</h3>
-(img align="right" alt="Coding" width="400" src="https://cdn.dribbble.com/users/1162077/screenshots/3848914/programmer.gif"
+<img align="right" alt="Coding" width="400" src="https://cdn.dribbble.com/users/1162077/screenshots/3848914/programmer.gif" />
 <p align="left"> <img src="https://komarev.com/ghpvc/?username=ahadd40451&label=Profile%20views&color=0e75b6&style=flat" alt="ahadd40451" /> </p>
 
 <p align="left"> <a href="https://github.com/ryo-ma/github-profile-trophy"><img src="https://github-profile-trophy.vercel.app/?username=ahadd40451" alt="ahadd40451" /></a> </p>
