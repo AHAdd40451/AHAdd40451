@@ -5,11 +5,9 @@
 
 <p align="left"> <a href="https://github.com/ryo-ma/github-profile-trophy"><img src="https://github-profile-trophy.vercel.app/?username=ahadd40451" alt="ahadd40451" /></a> </p>
 
-- 🔭 I’m currently working on **open source**
+- 🔭 I’m currently working on **Open Source Projects**
 
 - 🌱 I’m currently learning **Algorithms and Data Structures**
-
-- 👨‍💻 All of my projects are available at [https://abdul-ahad-portfolio.netlify.app/](https://abdul-ahad-portfolio.netlify.app/)
 
 - 💬 Ask me about **react ,node ,next ,mongodb**
 
