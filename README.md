@@ -1,6 +1,5 @@
 # Full Stack Developer
 
-### Bio
 Full Stack Developer with 4 years of experience in developing web applications using modern JavaScript frameworks and
 libraries.
 
