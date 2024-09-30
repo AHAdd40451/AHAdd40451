@@ -1,6 +1,4 @@
-# Abdul Ahad
-
-**Full Stack Developer**
+# Full Stack Developer
 
 🔭 Currently working on **private projects** and learning **AI and DevOps**  
 💬 Ask me about **JavaScript, TypeScript, React, Node.js**  
