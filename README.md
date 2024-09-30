@@ -7,7 +7,8 @@
 ---
 
 ### Bio
-Full Stack Developer with experience in JavaScript-related frameworks and libraries, specializing in designing, developing, testing, and deploying web applications.
+Full Stack Developer with 4 years of experience in developing web applications using modern JavaScript frameworks and
+libraries.
 
 ### Tech Stack
 - **Front-End:** JavaScript, TypeScript, React, Vue, Tailwind CSS, Next.js
