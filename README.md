@@ -1,6 +1,6 @@
 # Full Stack Developer
 
-Full Stack Developer with 4 years of experience in developing web applications using modern JavaScript frameworks and
+With 4 years of experience in developing web applications using modern JavaScript frameworks and
 libraries.
 
 ### Tech Stack
