@@ -1,21 +1,19 @@
-# Full Stack Developer
+# Hi, I'm Abdul Ahad 👋
 
-With 5 years of experience in developing web applications using JavaScript frameworks and
-libraries.
+Full Stack Developer with 5 years of experience building web applications.
 
-### Tech Stack
-- **Front-End:** JavaScript, TypeScript, React, Vue, Tailwind CSS, Next.js
-- **Back-End:** Node.js, NestJS, Express, Nuxt, WebSockets, gRPC, Prisma ORM
-- **Databases:** MongoDB, Firebase, PostgreSQL, Redis
-- **APIs & Microservices:** GraphQL, RESTful APIs
-- **Cloud & Deployment:** Docker, AWS, Kubernetes, Vercel
-- **DevOps & CI/CD:** GitHub Actions
-
-
-🔭 Currently working on **private projects** and learning **AI and DevOps**  
-💬 Ask me about **JavaScript, TypeScript, React, Node.js**  
-📫 Reach me at **ahadkhan40451@gmail.com**
+**Frontend:** JavaScript, TypeScript, React, Next.js, Vue, Tailwind CSS  
+**Backend:** Node.js, NestJS, Express, WebSockets, gRPC, Prisma  
+**Databases:** PostgreSQL, MongoDB, Redis, Firebase  
+**APIs:** GraphQL, REST  
+**DevOps:** Docker, AWS, Kubernetes, Vercel, GitHub Actions
 
 ---
 
-[![GitHub Streak](https://github-readme-streak-stats.herokuapp.com/?user=ahadd40451)](https://github.com/ahadd40451)
+🔭 Currently working on private projects and learning AI & DevOps  
+💬 Ask me about JavaScript, TypeScript, React, Node.js  
+📫 ahadkhan40451@gmail.com
+
+---
+
+[![GitHub Streak](https://github-readme-streak-stats.herokuapp.com/?user=AHAdd40451)](https://github.com/AHAdd40451)
