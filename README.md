@@ -3,8 +3,6 @@
 <h1>Abdul Ahad</h1>
 <p>Full Stack Developer &nbsp;·&nbsp; 5 Years Experience &nbsp;·&nbsp; Pakistan</p>
 
-<br/>
-
 <p>
 I build products that ship — marketplaces, Web3 platforms, multi-tenant SaaS, real-time dashboards.<br/>
 From pixel-perfect UIs to distributed backends.
@@ -21,6 +19,19 @@ From pixel-perfect UIs to distributed backends.
 - 💬 &nbsp;Ask me about JavaScript, TypeScript, React, Node.js
 - 📫 &nbsp;ahadkhan40451@gmail.com
 - 📍 &nbsp;Karachi, Pakistan
+
+---
+
+### GitHub Stats
+
+<div align="center">
+<img height="170em" src="https://github-readme-stats.vercel.app/api?username=AHAdd40451&show_icons=true&hide_border=true&theme=tokyonight&include_all_commits=true&count_private=true&bg_color=00000000&title_color=ffffff&text_color=aaaaaa&icon_color=aaaaaa"/>
+<img height="170em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=AHAdd40451&layout=compact&hide_border=true&theme=tokyonight&bg_color=00000000&title_color=ffffff&text_color=aaaaaa&langs_count=8"/>
+</div>
+
+<div align="center">
+<img src="https://streak-stats.demolab.com?user=AHAdd40451&theme=tokyonight&hide_border=true&background=00000000&stroke=444444&ring=aaaaaa&fire=aaaaaa&currStreakLabel=ffffff&sideLabels=aaaaaa&dates=666666&currStreakNum=ffffff&sideNums=ffffff"/>
+</div>
 
 ---
 
@@ -57,115 +68,111 @@ From pixel-perfect UIs to distributed backends.
 
 ---
 
-### GitHub Stats
-
-<div align="center">
-<img height="170em" src="https://github-readme-stats.vercel.app/api?username=AHAdd40451&show_icons=true&hide_border=true&theme=tokyonight&include_all_commits=true&count_private=true&bg_color=00000000&title_color=ffffff&text_color=aaaaaa&icon_color=aaaaaa"/>
-<img height="170em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=AHAdd40451&layout=compact&hide_border=true&theme=tokyonight&bg_color=00000000&title_color=ffffff&text_color=aaaaaa&langs_count=8"/>
-</div>
-
-<div align="center">
-<img src="https://streak-stats.demolab.com?user=AHAdd40451&theme=tokyonight&hide_border=true&background=00000000&stroke=444444&ring=aaaaaa&fire=aaaaaa&currStreakLabel=ffffff&sideLabels=aaaaaa&dates=666666&currStreakNum=ffffff&sideNums=ffffff"/>
-</div>
-
----
-
 ### Selected Work
 
 <table>
 <tr>
 <td width="50%" valign="top">
 
-**Syssel — Norway Service Marketplace**
+**[Syssel — Norway Service Marketplace](https://www.sysselmarket.com/)**
 
-Full ecosystem built solo over one year. Cross-platform mobile app, provider & customer dashboards, admin panel. Stripe Connect, Apple Pay, Google Pay, Google Business Profile, multilingual support.
+- Mobile app for iOS & Android with provider and customer flows
+- Web dashboard for service providers — profiles, calendars, bookings
+- Admin panel for payout approvals, verification and disputes
+- Stripe Connect, Apple Pay, Google Pay integrations
+- Multilingual support, pixel-perfect from Figma — built solo over 1 year
 
 `React Native` `Node.js` `Stripe Connect` `AWS Amplify`
 
-[↗ sysselmarket.com](https://www.sysselmarket.com/)
-
 </td>
 <td width="50%" valign="top">
 
-**Taskbound — Web3 Bounty Platform**
+**[Taskbound — Web3 Bounty Platform](https://www.app.taskbound.io/)**
 
-Earn crypto by completing task-based campaigns. EVM wallet connections, reward distribution, referral logic, leaderboards, and campaign creation system.
+- Campaign creation system with bounty amounts
+- EVM wallet connections and reward distribution
+- Referral logic and leaderboards
+- User progress tracking with MERN backend
 
 `MERN` `Web3` `EVM Wallets` `MVC`
 
-[↗ app.taskbound.io](https://www.app.taskbound.io/)
-
 </td>
 </tr>
 <tr>
 <td width="50%" valign="top">
 
-**HashOne Global — Corporate Website**
+**[HashOne Global — Corporate Website](https://www.hashoneglobal.com/software/web-application-development)**
 
-20+ page corporate site built pixel-perfect from Figma. Sanity CMS integration, reusable component library, SEO and performance optimized.
+- 20+ pages built pixel-perfect from Figma
+- Sanity CMS integrated for content editing
+- Reusable React components and responsive layouts
+- Optimized for SEO and performance
 
 `React` `Sanity CMS` `Figma` `SEO`
 
-[↗ hashoneglobal.com](https://www.hashoneglobal.com/software/web-application-development)
-
 </td>
 <td width="50%" valign="top">
 
-**Fannet — Lead Tracking Dashboard**
+**[Fannet — Lead Tracking Dashboard](https://fannet-seven.vercel.app/leads)**
 
-Real-time yearly, quarterly and weekly goal tracking for software agencies. Live data pulled from GoHighLevel API.
+- Real-time lead tracking and goal progress
+- Yearly, quarterly and weekly breakdowns
+- Live data pulled from GoHighLevel API
+- Clean, high-speed visual dashboard
 
 `React` `GoHighLevel API` `Vercel`
 
-[↗ fannet-seven.vercel.app](https://fannet-seven.vercel.app/leads)
-
 </td>
 </tr>
 <tr>
 <td width="50%" valign="top">
 
-**Simply Southern Pups — Full Rebuild**
+**[Simply Southern Pups — Full Rebuild](https://simplycavapoos.com/)**
 
-Complete redesign of a dog sales site. Breeder dashboard, puppy listing management, SEO-friendly React frontend, mobile-first experience.
+- Complete redesign with improved UI and UX
+- Breeder dashboard with puppy listing management
+- SEO-friendly React frontend
+- Mobile-first, faster loading experience
 
 `React` `Dashboard` `SEO`
 
-[↗ simplycavapoos.com](https://simplycavapoos.com/)
-
 </td>
 <td width="50%" valign="top">
 
-**Suqhur — Buy & Sell Marketplace**
+**[Suqhur — Buy & Sell Marketplace](https://next-full-stack-ecommerce-psi.vercel.app/)**
 
-Full-stack marketplace with Next.js SSR for SEO. Secure authentication, product listings, user dashboards, fully responsive.
+- Full marketplace with product listings and user dashboards
+- Next.js SSR for SEO optimization
+- Secure authentication and product management
+- Fully responsive and fast UI
 
 `Next.js` `SSR` `PostgreSQL`
-
-[↗ vercel.app](https://next-full-stack-ecommerce-psi.vercel.app/)
 
 </td>
 </tr>
 <tr>
 <td width="50%" valign="top">
 
-**247 Seating — Reservation Platform**
+**247 Seating — Reservation Platform** &nbsp;`private`
 
-Restaurant reservation and table management system. Real-time table occupancy, booking flows, and seating schedule management for restaurant staff.
+- Full-stack reservation and table management system
+- Real-time table occupancy tracking
+- Booking flows and seating schedule management
+- Built to simplify operations for restaurant staff
 
 `Node.js` `Real-time` `Dashboard`
-
-`private`
 
 </td>
 <td width="50%" valign="top">
 
-**AI Multi-Agent Systems**
+**AI Multi-Agent Systems** &nbsp;`in progress`
 
-Currently building autonomous agent pipelines using OpenClaw. Multi-agent orchestration, tool use, and task delegation across specialized agents.
+- Building autonomous agent pipelines with OpenClaw
+- Multi-agent orchestration and task delegation
+- Tool use across specialized agents
+- Exploring LLM-powered workflows end to end
 
 `OpenClaw` `AI Agents` `Node.js`
-
-`in progress`
 
 </td>
 </tr>
