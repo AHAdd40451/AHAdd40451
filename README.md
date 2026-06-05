@@ -14,6 +14,5 @@ Full Stack Developer with 5 years of experience building web applications.
 💬 Ask me about JavaScript, TypeScript, React, Node.js  
 📫 ahadkhan40451@gmail.com
 
----
 
 [![GitHub Streak](https://github-readme-streak-stats.herokuapp.com/?user=AHAdd40451)](https://github.com/AHAdd40451)
