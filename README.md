@@ -1,494 +1,109 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Abdul Ahad — Full Stack Developer</title>
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link href="https://fonts.googleapis.com/css2?family=Syne:wght@400;700;800&family=DM+Mono:wght@400;500&family=DM+Sans:wght@300;400;500&display=swap" rel="stylesheet">
-<style>
-  * { margin: 0; padding: 0; box-sizing: border-box; }
+<div align="center">
 
-  :root {
-    --bg: #0a0a0f;
-    --surface: #111118;
-    --border: rgba(255,255,255,0.07);
-    --border-hover: rgba(255,255,255,0.15);
-    --accent: #7c6dfa;
-    --accent2: #4fcfa0;
-    --accent3: #f4845f;
-    --text: #f0f0f5;
-    --muted: #8585a0;
-    --dim: #3a3a50;
-  }
+# Abdul Ahad
+### Full Stack Developer · 5 Years Experience · Pakistan 🇵🇰
 
-  body {
-    background: var(--bg);
-    color: var(--text);
-    font-family: 'DM Sans', sans-serif;
-    min-height: 100vh;
-    overflow-x: hidden;
-  }
-
-  body::before {
-    content: '';
-    position: fixed;
-    inset: 0;
-    background-image:
-      radial-gradient(circle at 20% 20%, rgba(124,109,250,0.06) 0%, transparent 50%),
-      radial-gradient(circle at 80% 80%, rgba(79,207,160,0.05) 0%, transparent 50%),
-      radial-gradient(circle at 60% 10%, rgba(244,132,95,0.04) 0%, transparent 40%);
-    pointer-events: none;
-    z-index: 0;
-  }
-
-  .container {
-    max-width: 860px;
-    margin: 0 auto;
-    padding: 60px 32px 80px;
-    position: relative;
-    z-index: 1;
-  }
-
-  .header { margin-bottom: 56px; }
-
-  .eyebrow {
-    font-family: 'DM Mono', monospace;
-    font-size: 11px;
-    letter-spacing: 0.18em;
-    color: var(--accent);
-    text-transform: uppercase;
-    margin-bottom: 20px;
-    display: flex;
-    align-items: center;
-    gap: 10px;
-  }
-  .eyebrow::after {
-    content: '';
-    flex: 1;
-    max-width: 48px;
-    height: 1px;
-    background: var(--accent);
-    opacity: 0.5;
-  }
-
-  h1 {
-    font-family: 'Syne', sans-serif;
-    font-size: clamp(44px, 8vw, 72px);
-    font-weight: 800;
-    line-height: 1.0;
-    letter-spacing: -0.03em;
-    margin-bottom: 8px;
-  }
-  h1 .name-line {
-    display: block;
-    background: linear-gradient(135deg, #ffffff 0%, #c0bff5 60%, #7c6dfa 100%);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    background-clip: text;
-  }
-
-  .title-badge {
-    display: inline-flex;
-    align-items: center;
-    gap: 8px;
-    background: rgba(124,109,250,0.1);
-    border: 1px solid rgba(124,109,250,0.25);
-    border-radius: 100px;
-    padding: 6px 16px 6px 10px;
-    font-size: 13px;
-    color: #b8b0fa;
-    margin-top: 20px;
-    font-family: 'DM Mono', monospace;
-  }
-  .dot {
-    width: 7px; height: 7px;
-    border-radius: 50%;
-    background: var(--accent2);
-    box-shadow: 0 0 8px var(--accent2);
-    animation: pulse 2s ease-in-out infinite;
-  }
-  @keyframes pulse { 0%,100%{opacity:1;transform:scale(1)} 50%{opacity:0.6;transform:scale(0.8)} }
-
-  .tagline {
-    margin-top: 24px;
-    font-size: 17px;
-    color: var(--muted);
-    line-height: 1.65;
-    max-width: 540px;
-    font-weight: 300;
-  }
-  .tagline strong { color: #c8c6e8; font-weight: 500; }
-
-  .stack-section { margin-bottom: 52px; }
-  .section-label {
-    font-family: 'DM Mono', monospace;
-    font-size: 10px;
-    letter-spacing: 0.2em;
-    text-transform: uppercase;
-    color: var(--dim);
-    margin-bottom: 16px;
-  }
-  .stack-grid {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 8px;
-  }
-  .tag {
-    font-family: 'DM Mono', monospace;
-    font-size: 12px;
-    padding: 5px 12px;
-    border-radius: 6px;
-    border: 1px solid var(--border);
-    background: var(--surface);
-    color: var(--muted);
-    transition: border-color 0.2s, color 0.2s, background 0.2s;
-    cursor: default;
-    white-space: nowrap;
-  }
-  .tag:hover { border-color: var(--border-hover); color: var(--text); background: rgba(255,255,255,0.04); }
-  .tag.accent { border-color: rgba(124,109,250,0.3); color: #a89cfa; background: rgba(124,109,250,0.06); }
-  .tag.green  { border-color: rgba(79,207,160,0.3);  color: #6fd9b8; background: rgba(79,207,160,0.06); }
-  .tag.orange { border-color: rgba(244,132,95,0.3);  color: #f4a07c; background: rgba(244,132,95,0.06); }
-
-  .divider { border: none; border-top: 1px solid var(--border); margin: 0 0 52px; }
-
-  .projects-header {
-    display: flex;
-    align-items: baseline;
-    justify-content: space-between;
-    margin-bottom: 24px;
-  }
-  .projects-header h2 {
-    font-family: 'Syne', sans-serif;
-    font-size: 22px;
-    font-weight: 700;
-    color: var(--text);
-    letter-spacing: -0.02em;
-  }
-  .projects-count {
-    font-family: 'DM Mono', monospace;
-    font-size: 11px;
-    color: var(--dim);
-  }
-
-  .project-list {
-    display: flex;
-    flex-direction: column;
-    gap: 1px;
-    border: 1px solid var(--border);
-    border-radius: 12px;
-    overflow: hidden;
-    background: var(--border);
-  }
-
-  .project-item {
-    background: var(--surface);
-    padding: 20px 24px;
-    display: grid;
-    grid-template-columns: 1fr auto;
-    gap: 12px;
-    align-items: start;
-    transition: background 0.2s;
-    cursor: default;
-    text-decoration: none;
-    color: inherit;
-  }
-  .project-item:hover { background: rgba(255,255,255,0.03); }
-
-  .project-name {
-    font-family: 'Syne', sans-serif;
-    font-size: 15px;
-    font-weight: 700;
-    color: var(--text);
-    margin-bottom: 4px;
-    letter-spacing: -0.01em;
-  }
-  .project-desc {
-    font-size: 13px;
-    color: var(--muted);
-    line-height: 1.5;
-    font-weight: 300;
-  }
-  .project-tags {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 6px;
-    margin-top: 10px;
-  }
-  .ptag {
-    font-family: 'DM Mono', monospace;
-    font-size: 10px;
-    padding: 2px 8px;
-    border-radius: 4px;
-    background: rgba(255,255,255,0.04);
-    border: 1px solid var(--border);
-    color: var(--dim);
-    letter-spacing: 0.05em;
-  }
-  .project-link {
-    font-family: 'DM Mono', monospace;
-    font-size: 11px;
-    color: var(--accent);
-    opacity: 0.7;
-    text-decoration: none;
-    margin-top: 2px;
-    white-space: nowrap;
-  }
-  .project-link:hover { opacity: 1; }
-
-  .currently {
-    margin-top: 48px;
-    padding: 28px;
-    border: 1px solid var(--border);
-    border-radius: 12px;
-    background: var(--surface);
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    gap: 24px;
-  }
-
-  .current-item { display: flex; flex-direction: column; gap: 6px; }
-  .current-label {
-    font-family: 'DM Mono', monospace;
-    font-size: 10px;
-    letter-spacing: 0.18em;
-    text-transform: uppercase;
-    color: var(--dim);
-  }
-  .current-value {
-    font-size: 14px;
-    color: var(--text);
-    font-weight: 400;
-    line-height: 1.5;
-  }
-  .current-value a { color: var(--accent2); text-decoration: none; }
-  .current-value a:hover { text-decoration: underline; }
-  .badge-ai {
-    display: inline-block;
-    background: rgba(79,207,160,0.1);
-    border: 1px solid rgba(79,207,160,0.25);
-    color: #6fd9b8;
-    font-family: 'DM Mono', monospace;
-    font-size: 10px;
-    padding: 2px 8px;
-    border-radius: 4px;
-    margin-left: 6px;
-    vertical-align: middle;
-    letter-spacing: 0.08em;
-  }
-
-  .footer-row {
-    margin-top: 40px;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    flex-wrap: wrap;
-    gap: 16px;
-  }
-  .contact-link {
-    display: inline-flex;
-    align-items: center;
-    gap: 8px;
-    font-family: 'DM Mono', monospace;
-    font-size: 12px;
-    color: var(--muted);
-    text-decoration: none;
-    border: 1px solid var(--border);
-    padding: 8px 16px;
-    border-radius: 8px;
-    transition: border-color 0.2s, color 0.2s;
-  }
-  .contact-link:hover { border-color: var(--border-hover); color: var(--text); }
-  .gh-link {
-    display: inline-flex;
-    align-items: center;
-    gap: 8px;
-    font-family: 'DM Mono', monospace;
-    font-size: 12px;
-    color: var(--accent);
-    text-decoration: none;
-    border: 1px solid rgba(124,109,250,0.3);
-    padding: 8px 16px;
-    border-radius: 8px;
-    background: rgba(124,109,250,0.06);
-    transition: background 0.2s, border-color 0.2s;
-  }
-  .gh-link:hover { background: rgba(124,109,250,0.12); border-color: rgba(124,109,250,0.5); }
-
-  @media (max-width: 560px) {
-    .container { padding: 40px 20px 60px; }
-    .currently { grid-template-columns: 1fr; gap: 18px; }
-    .footer-row { flex-direction: column; align-items: flex-start; }
-  }
-</style>
-</head>
-<body>
-<div class="container">
-
-  <header class="header">
-    <div class="eyebrow">Full Stack Developer</div>
-    <h1><span class="name-line">Abdul Ahad</span></h1>
-    <div class="title-badge">
-      <span class="dot"></span>
-      5 yrs exp · Pakistan
-    </div>
-    <p class="tagline">
-      I build <strong>products that ship</strong> — marketplaces, Web3 platforms, multi-tenant SaaS, real-time dashboards. From pixel-perfect UIs to distributed backends. Currently exploring <strong>AI multi-agent systems</strong> with OpenClaw.
-    </p>
-  </header>
-
-  <section class="stack-section">
-    <div class="section-label">Frontend</div>
-    <div class="stack-grid" style="margin-bottom: 24px;">
-      <span class="tag accent">TypeScript</span>
-      <span class="tag accent">React</span>
-      <span class="tag accent">Next.js</span>
-      <span class="tag accent">Vue</span>
-      <span class="tag">JavaScript</span>
-      <span class="tag">Tailwind CSS</span>
-    </div>
-
-    <div class="section-label">Backend &amp; APIs</div>
-    <div class="stack-grid" style="margin-bottom: 24px;">
-      <span class="tag green">Node.js</span>
-      <span class="tag green">NestJS</span>
-      <span class="tag green">Express</span>
-      <span class="tag">WebSockets</span>
-      <span class="tag">gRPC</span>
-      <span class="tag">GraphQL</span>
-      <span class="tag">REST</span>
-      <span class="tag">Prisma</span>
-    </div>
-
-    <div class="section-label">Data &amp; Infra</div>
-    <div class="stack-grid">
-      <span class="tag orange">PostgreSQL</span>
-      <span class="tag orange">MongoDB</span>
-      <span class="tag orange">Redis</span>
-      <span class="tag orange">Firebase</span>
-      <span class="tag">Docker</span>
-      <span class="tag">AWS</span>
-      <span class="tag">Kubernetes</span>
-      <span class="tag">Vercel</span>
-      <span class="tag">GitHub Actions</span>
-    </div>
-  </section>
-
-  <hr class="divider">
-
-  <section>
-    <div class="projects-header">
-      <h2>Selected Work</h2>
-      <span class="projects-count">7 projects</span>
-    </div>
-
-    <div class="project-list">
-
-      <a class="project-item" href="https://www.sysselmarket.com/" target="_blank">
-        <div>
-          <div class="project-name">Syssel — Norway Service Marketplace</div>
-          <div class="project-desc">Full ecosystem: cross-platform mobile app, provider & customer dashboards, admin panel. Stripe Connect, Apple Pay, Google Pay, Google Business Profile, multilingual. Built solo over one year.</div>
-          <div class="project-tags">
-            <span class="ptag">React Native</span><span class="ptag">Node.js</span><span class="ptag">Stripe Connect</span><span class="ptag">AWS Amplify</span><span class="ptag">iOS</span><span class="ptag">Android</span>
-          </div>
-        </div>
-        <span class="project-link">↗ live</span>
-      </a>
-
-      <a class="project-item" href="https://www.app.taskbound.io/" target="_blank">
-        <div>
-          <div class="project-name">Taskbound — Web3 Bounty Platform</div>
-          <div class="project-desc">Earn crypto by completing task-based campaigns. EVM wallet connections, reward distribution, referral logic, leaderboards, and campaign creation system.</div>
-          <div class="project-tags">
-            <span class="ptag">MERN</span><span class="ptag">Web3</span><span class="ptag">EVM Wallets</span><span class="ptag">MVC</span>
-          </div>
-        </div>
-        <span class="project-link">↗ live</span>
-      </a>
-
-      <a class="project-item" href="https://www.hashoneglobal.com/software/web-application-development" target="_blank">
-        <div>
-          <div class="project-name">HashOne Global — Corporate Website</div>
-          <div class="project-desc">20+ page corporate site built pixel-perfect from Figma. Sanity CMS integration, reusable component library, SEO and performance optimized.</div>
-          <div class="project-tags">
-            <span class="ptag">React</span><span class="ptag">Sanity CMS</span><span class="ptag">Figma</span><span class="ptag">SEO</span>
-          </div>
-        </div>
-        <span class="project-link">↗ live</span>
-      </a>
-
-      <a class="project-item" href="https://fannet-seven.vercel.app/leads" target="_blank">
-        <div>
-          <div class="project-name">Fannet — Lead Tracking Dashboard</div>
-          <div class="project-desc">Real-time yearly, quarterly and weekly goal tracking for software agencies, pulling live data from GoHighLevel API.</div>
-          <div class="project-tags">
-            <span class="ptag">React</span><span class="ptag">GoHighLevel API</span><span class="ptag">Vercel</span>
-          </div>
-        </div>
-        <span class="project-link">↗ live</span>
-      </a>
-
-      <a class="project-item" href="https://simplycavapoos.com/" target="_blank">
-        <div>
-          <div class="project-name">Simply Southern Pups — Full Rebuild</div>
-          <div class="project-desc">Complete redesign and rebuild of a dog sales site. Breeder dashboard, puppy listing management, SEO-friendly React front end, mobile-first.</div>
-          <div class="project-tags">
-            <span class="ptag">React</span><span class="ptag">Dashboard</span><span class="ptag">SEO</span>
-          </div>
-        </div>
-        <span class="project-link">↗ live</span>
-      </a>
-
-      <a class="project-item" href="https://next-full-stack-ecommerce-psi.vercel.app/" target="_blank">
-        <div>
-          <div class="project-name">Suqhur — Buy &amp; Sell Marketplace</div>
-          <div class="project-desc">Full-stack marketplace with Next.js SSR for SEO, secure auth, product listings and user dashboards.</div>
-          <div class="project-tags">
-            <span class="ptag">Next.js</span><span class="ptag">SSR</span><span class="ptag">PostgreSQL</span>
-          </div>
-        </div>
-        <span class="project-link">↗ live</span>
-      </a>
-
-      <div class="project-item">
-        <div>
-          <div class="project-name">247 Seating — Restaurant Reservation Platform</div>
-          <div class="project-desc">Full-stack reservation and table management system. Real-time table occupancy, booking flows, and seating schedule management for restaurant staff.</div>
-          <div class="project-tags">
-            <span class="ptag">Node.js</span><span class="ptag">Real-time</span><span class="ptag">Dashboard</span>
-          </div>
-        </div>
-        <span class="project-link" style="opacity:0.3;">private</span>
-      </div>
-
-    </div>
-  </section>
-
-  <section class="currently">
-    <div class="current-item">
-      <div class="current-label">Currently building</div>
-      <div class="current-value">AI multi-agent systems with OpenClaw <span class="badge-ai">new</span></div>
-    </div>
-    <div class="current-item">
-      <div class="current-label">Also into</div>
-      <div class="current-value">DevOps infrastructure, Kubernetes, private client work</div>
-    </div>
-    <div class="current-item">
-      <div class="current-label">Ask me about</div>
-      <div class="current-value">JavaScript, TypeScript, React, Node.js</div>
-    </div>
-    <div class="current-item">
-      <div class="current-label">GitHub</div>
-      <div class="current-value"><a href="https://github.com/AHAdd40451" target="_blank">AHAdd40451</a> — consistently shipping</div>
-    </div>
-  </section>
-
-  <div class="footer-row">
-    <a class="contact-link" href="mailto:ahadkhan40451@gmail.com">ahadkhan40451@gmail.com</a>
-    <a class="gh-link" href="https://github.com/AHAdd40451" target="_blank">github.com/AHAdd40451 ↗</a>
-  </div>
+[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=18&pause=1000&color=7C6DFA&center=true&vCenter=true&width=600&lines=Building+products+that+ship+%F0%9F%9A%80;React+%7C+Next.js+%7C+Node.js+%7C+NestJS;Web3+%7C+Marketplaces+%7C+SaaS+%7C+Dashboards;AI+Multi-Agent+Systems+with+OpenClaw+%F0%9F%A4%96)](https://git.io/typing-svg)
 
 </div>
-</body>
-</html>
+
+---
+
+## 👋 About Me
+
+I build **products that ship** — marketplaces, Web3 platforms, multi-tenant SaaS, and real-time dashboards. From pixel-perfect UIs to distributed backends. Currently exploring **AI multi-agent systems** with OpenClaw.
+
+- 🔭 Working on **private client projects** + **AI multi-agent systems (OpenClaw)**
+- 🌱 Deep diving into **DevOps**, **Kubernetes**, and **AI tooling**
+- 💬 Ask me about **JavaScript, TypeScript, React, Node.js**
+- 📫 Reach me at **ahadkhan40451@gmail.com**
+- 🌐 Based in **Karachi, Pakistan**
+
+---
+
+## 🛠️ Tech Stack
+
+**Frontend**
+
+![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)
+![React](https://img.shields.io/badge/React-61DAFB?style=flat-square&logo=react&logoColor=black)
+![Next.js](https://img.shields.io/badge/Next.js-000000?style=flat-square&logo=nextdotjs&logoColor=white)
+![Vue](https://img.shields.io/badge/Vue.js-4FC08D?style=flat-square&logo=vuedotjs&logoColor=white)
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black)
+![Tailwind CSS](https://img.shields.io/badge/Tailwind-06B6D4?style=flat-square&logo=tailwindcss&logoColor=white)
+
+**Backend & APIs**
+
+![Node.js](https://img.shields.io/badge/Node.js-339933?style=flat-square&logo=nodedotjs&logoColor=white)
+![NestJS](https://img.shields.io/badge/NestJS-E0234E?style=flat-square&logo=nestjs&logoColor=white)
+![Express](https://img.shields.io/badge/Express-000000?style=flat-square&logo=express&logoColor=white)
+![GraphQL](https://img.shields.io/badge/GraphQL-E10098?style=flat-square&logo=graphql&logoColor=white)
+![WebSockets](https://img.shields.io/badge/WebSockets-010101?style=flat-square&logo=socketdotio&logoColor=white)
+![gRPC](https://img.shields.io/badge/gRPC-4285F4?style=flat-square&logo=google&logoColor=white)
+![Prisma](https://img.shields.io/badge/Prisma-2D3748?style=flat-square&logo=prisma&logoColor=white)
+
+**Databases**
+
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white)
+![MongoDB](https://img.shields.io/badge/MongoDB-47A248?style=flat-square&logo=mongodb&logoColor=white)
+![Redis](https://img.shields.io/badge/Redis-DC382D?style=flat-square&logo=redis&logoColor=white)
+![Firebase](https://img.shields.io/badge/Firebase-FFCA28?style=flat-square&logo=firebase&logoColor=black)
+
+**DevOps & Cloud**
+
+![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white)
+![AWS](https://img.shields.io/badge/AWS-232F3E?style=flat-square&logo=amazonwebservices&logoColor=white)
+![Kubernetes](https://img.shields.io/badge/Kubernetes-326CE5?style=flat-square&logo=kubernetes&logoColor=white)
+![Vercel](https://img.shields.io/badge/Vercel-000000?style=flat-square&logo=vercel&logoColor=white)
+![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-2088FF?style=flat-square&logo=githubactions&logoColor=white)
+
+---
+
+## 📊 GitHub Stats
+
+<div align="center">
+
+<img height="180em" src="https://github-readme-stats.vercel.app/api?username=AHAdd40451&show_icons=true&theme=tokyonight&include_all_commits=true&count_private=true&hide_border=true&bg_color=0a0a0f&title_color=7c6dfa&icon_color=4fcfa0&text_color=f0f0f5"/>
+<img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=AHAdd40451&layout=compact&theme=tokyonight&hide_border=true&bg_color=0a0a0f&title_color=7c6dfa&text_color=f0f0f5&langs_count=8"/>
+
+</div>
+
+<div align="center">
+
+[![GitHub Streak](https://streak-stats.demolab.com?user=AHAdd40451&theme=tokyonight&hide_border=true&background=0a0a0f&stroke=7c6dfa&ring=4fcfa0&fire=f4845f&currStreakLabel=7c6dfa&sideLabels=7c6dfa&dates=8585a0)](https://git.io/streak-stats)
+
+</div>
+
+---
+
+## 🚀 Selected Work
+
+| Project | Description | Stack | Link |
+|--------|-------------|-------|------|
+| **Syssel** | Norway service marketplace — mobile app, dashboards, admin panel, Stripe Connect, Apple/Google Pay. Built solo over 1 year. | React Native · Node.js · AWS | [↗ Live](https://www.sysselmarket.com/) |
+| **Taskbound** | Web3 bounty platform — earn crypto completing campaigns. EVM wallets, reward logic, leaderboards. | MERN · Web3 · EVM | [↗ Live](https://www.app.taskbound.io/) |
+| **HashOne Global** | 20+ page corporate site from Figma, Sanity CMS, SEO optimized. | React · Sanity CMS | [↗ Live](https://www.hashoneglobal.com/software/web-application-development) |
+| **Fannet Dashboard** | Real-time lead tracking + GoHighLevel API integration for agencies. | React · GoHighLevel API | [↗ Live](https://fannet-seven.vercel.app/leads) |
+| **Simply Southern Pups** | Full rebuild of dog sales site + breeder dashboard, mobile-first. | React · Dashboard | [↗ Live](https://simplycavapoos.com/) |
+| **Suqhur** | Buy & sell marketplace with Next.js SSR for SEO. | Next.js · SSR · PostgreSQL | [↗ Live](https://next-full-stack-ecommerce-psi.vercel.app/) |
+| **247 Seating** | Restaurant reservation & table management platform, real-time. | Node.js · Real-time | `private` |
+
+---
+
+## 🤖 Currently Exploring
+
+```
+AI Multi-Agent Systems  ──  OpenClaw  ──  DevOps & Kubernetes
+```
+
+---
+
+<div align="center">
+
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=flat-square&logo=linkedin&logoColor=white)](https://linkedin.com/in/abdul-ahad-314197250)
+[![Email](https://img.shields.io/badge/Email-EA4335?style=flat-square&logo=gmail&logoColor=white)](mailto:ahadkhan40451@gmail.com)
+[![GitHub](https://img.shields.io/badge/GitHub-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/AHAdd40451)
+
+![Profile Views](https://komarev.com/ghpvc/?username=AHAdd40451&style=flat-square&color=7c6dfa&label=Profile+Views)
+
+</div>
