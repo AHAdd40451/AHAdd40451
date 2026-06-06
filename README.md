@@ -24,10 +24,6 @@ From pixel-perfect UIs to distributed backends.
 
 ### GitHub Stats
 
-<div align="center">
-<img height="170em" src="https://github-readme-stats.vercel.app/api?username=AHAdd40451&show_icons=true&hide_border=true&theme=tokyonight&include_all_commits=true&count_private=true&bg_color=00000000&title_color=ffffff&text_color=aaaaaa&icon_color=aaaaaa"/>
-<img height="170em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=AHAdd40451&layout=compact&hide_border=true&theme=tokyonight&bg_color=00000000&title_color=ffffff&text_color=aaaaaa&langs_count=8"/>
-</div>
 
 <div align="center">
 <img src="https://streak-stats.demolab.com?user=AHAdd40451&theme=tokyonight&hide_border=true&background=00000000&stroke=444444&ring=aaaaaa&fire=aaaaaa&currStreakLabel=ffffff&sideLabels=aaaaaa&dates=666666&currStreakNum=ffffff&sideNums=ffffff"/>
