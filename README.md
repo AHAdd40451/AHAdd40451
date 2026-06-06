@@ -10,6 +10,18 @@ From pixel-perfect UIs to distributed backends.
 
 </div>
 
+<div align="center">
+
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-1a1a1a?style=flat-square&logo=linkedin&logoColor=white)](https://linkedin.com/in/abdul-ahad-314197250)
+&nbsp;
+[![Gmail](https://img.shields.io/badge/Email-1a1a1a?style=flat-square&logo=gmail&logoColor=white)](mailto:ahadkhan40451@gmail.com)
+&nbsp;
+[![GitHub](https://img.shields.io/badge/GitHub-1a1a1a?style=flat-square&logo=github&logoColor=white)](https://github.com/AHAdd40451)
+
+![Profile Views](https://komarev.com/ghpvc/?username=AHAdd40451&style=flat-square&color=555555&label=profile+views)
+
+</div>
+
 ---
 
 ### About Me
@@ -176,14 +188,4 @@ From pixel-perfect UIs to distributed backends.
 
 ---
 
-<div align="center">
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-1a1a1a?style=flat-square&logo=linkedin&logoColor=white)](https://linkedin.com/in/abdul-ahad-314197250)
-&nbsp;
-[![Gmail](https://img.shields.io/badge/Email-1a1a1a?style=flat-square&logo=gmail&logoColor=white)](mailto:ahadkhan40451@gmail.com)
-&nbsp;
-[![GitHub](https://img.shields.io/badge/GitHub-1a1a1a?style=flat-square&logo=github&logoColor=white)](https://github.com/AHAdd40451)
-
-![Profile Views](https://komarev.com/ghpvc/?username=AHAdd40451&style=flat-square&color=555555&label=profile+views)
-
-</div>
