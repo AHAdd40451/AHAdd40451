@@ -4,7 +4,7 @@
 <p>Full Stack Developer &nbsp;·&nbsp; 5 Years Experience &nbsp;·&nbsp; Pakistan</p>
 
 <p>
-I build products that ship — marketplaces, Web3 platforms, multi-tenant SaaS, real-time dashboards.<br/>
+I build products that ship marketplaces, Web3 platforms, multi-tenant SaaS, real-time dashboards.<br/>
 From pixel-perfect UIs to distributed backends.
 </p>
 
