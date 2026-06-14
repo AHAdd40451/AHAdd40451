@@ -4,8 +4,13 @@
 <p>Full Stack Developer &nbsp;·&nbsp; 5 Years Experience &nbsp;·&nbsp; Pakistan</p>
 
 <p>
-I build products that ship marketplaces, Web3 platforms, multi-tenant SaaS, real-time dashboards.<br/>
-From pixel-perfect UIs to distributed backends.
+5 years deep in this software jungle.
+
+Found trash, found diamonds, broke backends, cooked UIs, crashed infra, fought bugs at 3AM, took heat from managers, fixed mess nobody wanted to touch.
+
+Played with AI before it became everyone’s personality.
+
+Not the cleanest engineer in the room, but I ship, I learn, I survive production, and I know how to turn chaos into something that actually works.
 </p>
 
 </div>
