@@ -39,7 +39,7 @@ Not the cleanest engineer in the room, but I ship, I learn, I survive production
 
 ---
 
-### GitHub Stats
+### GitHub Stats 
 
 
 <div align="center">
