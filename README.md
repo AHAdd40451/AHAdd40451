@@ -6,7 +6,7 @@
 <p>
 5 years deep in this software jungle.
 
-Found trash, found diamonds, broke backends, cooked UIs, crashed infra, fought bugs at 3AM, took heat from managers, fixed mess nobody wanted to touch.
+broke backends, cooked UIs, crashed infra, fought bugs at 3AM, took heat from managers, fixed mess nobody wanted to touch.
 
 Played with AI before it became everyone’s personality.
 
