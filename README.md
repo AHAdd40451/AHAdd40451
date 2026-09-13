@@ -4,9 +4,7 @@
 <p>Full Stack Developer &nbsp;·&nbsp; 5 Years Experience &nbsp;·&nbsp; Pakistan</p>
 
 <p>
-5 years deep in this software .
-broke backends, cooked UIs, crashed infra, fought bugs at 3AM, took heat from managers, fixed mess nobody wanted to touch.
-Not the cleanest engineer in the room, but I ship, I survive production, and I know how to turn chaos into something that actually works.
+I’ve been following this passion since 2020, and I still love it. I build web apps, mobile apps, and software products.
 </p>
 
 </div>
